@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table,
+th,
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(121, 121, 138);
+    padding: 1rem
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.navbar a hover {
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logout {
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    font-size: large;
+}
